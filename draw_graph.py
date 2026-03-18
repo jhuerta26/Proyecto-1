@@ -1,5 +1,5 @@
 import os
-import graphvizpng
+import graphviz
 
 def draw_gv_file(gv_path: str, open_view: bool = True, fmt: str = "png") -> str:
     """
